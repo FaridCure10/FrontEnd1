@@ -1,0 +1,40 @@
+
+/*Generales*/
+body{
+    font-family: 'times new roman';
+  
+    /* Full Page Background Receipe */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  * {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+
+/*Encabezados*/
+h1 {
+    text-align: center;
+}
+h1, h2 {
+    color: #005677;
+    background-color: #C4C4C4;
+}
+
+/*section*/
+section{
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    background-color: #005677;
+    color: #FFFFFF;
+}
