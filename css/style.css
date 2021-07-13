@@ -1,0 +1,24 @@
+/*Generales*/
+
+
+
+
+/*Body*/
+body{
+    background-color: rgba(black, black, black, 0.8);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: orangered;
+    text-align: center;
+}
+
+ul{
+    box-align: center;
+    color: white;
+}
