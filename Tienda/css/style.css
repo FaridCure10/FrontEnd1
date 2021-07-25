@@ -1,0 +1,99 @@
+/* Generales */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header */
+body > div{
+    background-color: #1CD1B0;
+    height: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+h5{
+    position: relative;
+    font-size: 15px;
+    top: 5px;
+    left: 20px;
+}
+
+header, a, footer{
+    background-color: #00669F;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    height: 60px;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 30px;
+    position: relative;
+    top: 12px;
+    left: 25px;
+}
+
+section.cartas{
+    display: flex;
+    /* align-items:center; */
+    justify-content: space-between;
+    margin: 40px;
+}
+
+article{
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    /* height: 900px; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+}
+
+.logo1, .logo2, .logo3{
+    border-radius: 50%;
+    align-self: center;
+    position: relative;
+    bottom: 50px;
+}
+
+div.contenido{
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* position: relative; */
+}
+
+div.contenido h2{
+    align-self: center;
+}
+
+div.contenido p{
+    text-align: justify;
+}
+
+a{
+    color: #F3F3F3;
+    font-size: 20px;
+    height: 45px;
+    width: 40%;
+    align-self: center;
+    text-align: center;
+    /* position: relative;
+    top: 25px;
+    left: 30%; */
+}
+
+/* Footer */
+footer{
+    color: #F3F3F3;
+    text-align: center;
+    width: 100%;
+}
