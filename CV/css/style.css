@@ -1,21 +1,33 @@
 
+
 /*Generales*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
 body{
     font-family: 'times new roman';
+  }  
   
-    /* Full Page Background Receipe */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  
-  * {
-    -moz-box-sizing: border-box; /* Firexfox */
-    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-    box-sizing: border-box; /* IE */
-  }
 
 /*Encabezados*/
+header{
+    
+}
+
+ul.menu{
+    color: white;
+    font-weight: bold;
+    list-style-type: none;
+    text-align: right;
+}
+
+ul.menu:hover{
+    color: orangered;
+}
+
 h1 {
     text-align: center;
 }
@@ -25,11 +37,33 @@ h1, h2 {
 }
 
 /*section*/
-section{
-    width: 80%;
+
+section.banner{
     position: relative;
-    left: 10%;
 }
+
+section.banner img{
+   position: relative;
+   left: 45%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section.datos, section.formacion, section.experiencia{
+    
+    width: 80%;
+}
+
+section.datos ul li span{
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 
 /*FOOTER*/
