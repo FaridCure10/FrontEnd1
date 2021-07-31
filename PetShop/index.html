@@ -31,21 +31,22 @@
     </header>
     <main>
         <section class="banner">
-            <!-- <img src="../PetShop/img/fotoDestacada.svg" alt="comida para perros"> -->
             <h2>¡Es un placer tenerte aquí!</h2>
             <p class="banner1">¡Comederes en descuento!</p>
             <p class="banner2">Comederos</p>
         </section>
 
-        <section class="productos">
-            <img src="../PetShop/img/patitas.svg" alt="patitas de perro">
+        <section class="destacados">
+            <img src="img/patitas.svg" alt="patitas de perro">
             <h2>Productos Destacados</h2>
             <ul>
                 <li>Comederos</li>
                 <li>Accesorios</li>
                 <li>Comida</li>
             </ul>
+        </section>
 
+        <section class="productos">
             <article class="churrasquito">
                 <img src="../PetShop/img/Churrasquito.svg" alt="juguete churrasquito">
                 <h6>Juguete Churrasquito</h6>
@@ -65,10 +66,59 @@
             </article>
         </section>
 
-        <footer>
-            <p>Todos los derechos reservados Front End</p>
-        </footer>
+        <section class="formulario">
+            <h2>Contáctanos</h2>
+            <form action="" method="POST">
+                <input type="text" name="usuario" value="Nombre y Apellido">
+                <input type="email" name="email" value="Ingresar Correo">
+                <input type="tel" name="telefono" value="Teléfono">
+                <p>
+                    <input type="reset" id="borrar" value="Borrar">
+                    <input type="submit" id="enviar" value="Enviar">
+                </p>
+            </form>
+        </section>
+
+        <section class="suscripcion"> 
+            
+            <h2><i class="fas fa-envelope-open-text"></i>Suscríbete para más novedades</h2>
+            <form action="" method="POST">
+                <input type="email" name="suscripcion" id="suscripcion" value="Ingresa tu Correo Electrónico">
+                <input type="submit" name="suscribirme" id="suscribirme" value="Suscribirme"> 
+            </form>
+        </section>
+        
     </main>
-    
+    <footer>
+        <section class="datos">
+            <article class="icons">
+                <aside>
+                    <img src="img/ubicacion.png" alt="ubicacion">
+                    <h6>Localidad</h6>
+                    <p>Calle-Provincia</p>
+                </aside>
+                
+                <aside>
+                    <img src="img/correo.png" alt="correo">
+                    <h6>Correo Electrónico</h6>
+                    <p>Dirección Correo</p>
+                </aside>
+                
+                <aside>
+                    <img src="img/tel.png" alt="telefono">
+                    <h6>Teléfono</h6>
+                    <p>Número Teléfono</p>
+                </aside>
+                
+            </article>
+
+            <article class="logo">
+                <img src="img/Logo2.png" alt="Logo PetShop">
+            </article>
+        </section>
+        <section class="derechos">
+            <p>Todos los derechos reservados Front End</p>
+        </section>
+    </footer>
 </body>
 </html>

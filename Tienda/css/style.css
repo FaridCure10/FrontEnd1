@@ -41,21 +41,27 @@ h1{
 section.cartas{
     display: flex;
     /* align-items:center; */
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 40px;
 }
 
 article{
     background-color: #F3F3F3;
-    border-radius: 5px;
-    /* height: 900px; */
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    position: relative;
     width: 30%;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px 5px #00669F;
 }
 
-.logo1, .logo2, .logo3{
+.fondo1, .fondo2, .fondo3, .fondo4{
+    border-radius: 15px 15px 0 0 ;
+}
+
+
+.logo1, .logo2, .logo3, .logo4{
     border-radius: 50%;
     align-self: center;
     position: relative;
@@ -96,4 +102,18 @@ footer{
     color: #F3F3F3;
     text-align: center;
     width: 100%;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .logo1, .logo2, .logo3, .logo4{
+        border-radius: 50%;
+        align-self: center;
+        position: relative;
+        bottom: 50px;
+        width: 70%;
+    }
+    
+    
 }
